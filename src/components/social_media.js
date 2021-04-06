@@ -29,7 +29,7 @@ const SocialMedia = ({ app }) => {
 	}
 
 	return (
-		<a href={link} target='_blank'>
+		<a href={link} target='_blank' rel='noreferrer'>
 			<svg aria-labelledby='title' className='social' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 42 42'>
 				<title id='title' lang='en'>
 					{app} link

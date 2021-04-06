@@ -5,16 +5,14 @@ import CountDown from './components/count_down';
 const App = () => {
 	return (
 		<div className='main'>
-			<div className='container'>
-				<h1 className='main-font'>WE'RE LAUNCHING SOON!</h1>
-				<CountDown />
-				<div>
-					<SocialMedia app='github' />
-					<SocialMedia app='linkedin' />
-					<SocialMedia app='facebook' />
-					<SocialMedia app='instagram' />
-				</div>
-			</div>
+			<h1 className='heading'>WE'RE LAUNCHING SOON!</h1>
+			<CountDown />
+			<footer>
+				<SocialMedia app='github' />
+				<SocialMedia app='linkedin' />
+				<SocialMedia app='facebook' />
+				<SocialMedia app='instagram' />
+				</footer>
 		</div>
 	);
 };
